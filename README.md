@@ -184,14 +184,6 @@ The notebook paths assume that the working directory is `notebooks/`. Run the ce
 - Because distance to the centre is a model input, some spatial separation of clusters is expected.
 - Silhouette values of approximately `0.30–0.34` indicate that the resulting clusters are not strongly separated.
 
-## Possible next steps
-
-- Aggregate boarding positions into stop complexes.
-- Add tram service frequency and connectivity features.
-- Compare clustering with and without `distance_to_center`.
-- Experiment with alternative clustering algorithms such as DBSCAN or HDBSCAN.
-- Add an interactive map and automated tests for spatial feature calculations.
-
 ## Tech stack
 
 **Python · Pandas · GeoPandas · Shapely · scikit-learn · Matplotlib · Jupyter Notebook**
